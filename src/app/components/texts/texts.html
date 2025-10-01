@@ -1,0 +1,9 @@
+<textarea name="plain" id="plain" [(ngModel)]="plain">
+
+</textarea>
+
+<textarea name="cipher" id="cipher" [value]="cipher" readonly>
+
+</textarea>
+<button (click)="encrypte()" [disabled]="disabled">generate</button>
+<button (click)="reset()">Reset</button>
