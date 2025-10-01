@@ -15,28 +15,19 @@ export class Rotors implements OnChanges, OnInit{
   defaultSettings = [0, 0, 0];
 
   private _rotors = inject(Rotor);
-  rotors!: RotorsModel;
-
-
-  async emitValue(){
-
-    this.settingsValue.emit(this.settings);
-    await this._rotors.setRotorSetting(this.settings);
-  }
-
-  ngOnChanges(changes: SimpleChanges): void {
-    if(this.settings) {
-      this.defaultSettings = [...this.settings];
-    }
-  }
 
   ngOnInit(): void {
     this.defaultSettings = [...this.settings];
     this._rotors.loadRotors().catch(() => {});
   }
 
-  onChange() {
-    this.settingsValue.emit([...this.defaultSettings]);
+  ngOnChanges(): void {
+    this.defaultSettings = [...this.settings];
+  }
+
+  async emitValue(){
+    this.settingsValue.emit(this.settings);
+    await this._rotors.setRotorSetting(this.settings);
   }
 
   async apply() {
@@ -46,21 +37,14 @@ export class Rotors implements OnChanges, OnInit{
 
   async randomizeSettings() {
     await this._rotors.loadRotors();
-    this.settings = [
-      Math.floor(Math.random() * 53),
-      Math.floor(Math.random() * 53),
-      Math.floor(Math.random() * 53),
-    ];
-    this.defaultSettings = [...this.settings];
-    this.settingsValue.emit(this.settings);
-    await this._rotors.setRotorSetting(this.settings);
+    this.defaultSettings = Array.from({ length: 3 }, () => Math.floor(Math.random() * 53));
+    this.settingsValue.emit([...this.defaultSettings]);
+    await this._rotors.setRotorSetting(this.defaultSettings);
   }
 
-  reset() {
-    this.settings = [0, 0, 0];
+  async reset() {
     this.defaultSettings = [0, 0, 0];
-    this.emitValue();
-    this.settingsValue.emit([...this.settings]);
-    this._rotors.setRotorSetting(this.settings).catch(() => {})
+    this.settingsValue.emit([...this.defaultSettings]);
+    await this._rotors.setRotorSetting(this.defaultSettings);
   }
 }
