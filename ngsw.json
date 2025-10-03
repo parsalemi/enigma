@@ -1,0 +1,79 @@
+{
+  "configVersion": 1,
+  "timestamp": 1759524797986,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-MH2HB2TW.js",
+        "/manifest.webmanifest",
+        "/polyfills-5CFQRCPP.js",
+        "/styles-5INURTSO.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/icons/enigma-16.png",
+        "/icons/enigma-32.png",
+        "/icons/enigma-57.png",
+        "/icons/enigma-60.png",
+        "/icons/enigma-70.png",
+        "/icons/enigma-72.png",
+        "/icons/enigma-76.png",
+        "/icons/enigma-96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/favicon.ico": "471452a541743c1ead06bc32efcf0f1ccc12aae7",
+    "/icons/enigma-16.png": "56cb166c8d1179994e591f24fc9eb35c6bd124b0",
+    "/icons/enigma-32.png": "94da86854c427844fc587b49c690034bee487b95",
+    "/icons/enigma-57.png": "875dc2780dc61fb5d6b94e7fb648c85325469d00",
+    "/icons/enigma-60.png": "fbafbe335f03577ce8ede69eba28474baf8a45e2",
+    "/icons/enigma-70.png": "59ac9f12c3478b2a300b619819ad72f3ecae5f6f",
+    "/icons/enigma-72.png": "c10853b5f14977520cea7ec547105bcf00fe6d65",
+    "/icons/enigma-76.png": "dfb9e78e186ead5457f796428ba166d9de387644",
+    "/icons/enigma-96.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
+    "/index.html": "a849d20e527c214b0ff52460c645f6b8ff181936",
+    "/main-MH2HB2TW.js": "1f781bc1a5cd7cf2f0498c939de99ef98d043450",
+    "/manifest.webmanifest": "5e94181068338a6e37d38ed4a56c5d59cf5fac58",
+    "/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
