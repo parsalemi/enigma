@@ -25,7 +25,7 @@ jobs:
         run: npm run build -- --prod --output-path=dist/enigma --base-href "/enigma/"
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v7
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/enigma
