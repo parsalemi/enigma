@@ -1,0 +1,19 @@
+{
+  "name": "enigma",
+  "short_name": "enigma",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "icons/enigma-16-light.png", "sizes": "16x16", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-32-light.png", "sizes": "32x32", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-57-light.png", "sizes": "57x57", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-60-light.png", "sizes": "60x60", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-70-light.png", "sizes": "70x70", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-72-light.png", "sizes": "72x72", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-76-light.png", "sizes": "76x76", "type": "image/png", "purpose": "maskable any" },
+    { "src": "icons/enigma-96-light.png", "sizes": "96x96", "type": "image/png", "purpose": "maskable any" }
+  ]
+}
