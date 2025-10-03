@@ -1,0 +1,10 @@
+textarea {
+  line-height: 20px;
+  border: 2px solid var(--primary-900);
+  transition: all .1s;
+  border-radius: 8px;
+  &:focus-visible{
+    outline: none;
+    border: 2px solid var(--primary-700);
+  }
+}

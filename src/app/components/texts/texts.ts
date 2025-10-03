@@ -29,6 +29,13 @@ export class Texts implements OnChanges{
     this.cipherDone.emit();
     this.disabled = true;
   }
+  copyToClipboard(){
+    navigator.clipboard.writeText(this.cipher);
+  }
+
+  pasteFromClipboard() {
+    navigator.clipboard.readText().then(text => this.plain = text);
+  }
 
   async reset() {
     this.plain = '';
