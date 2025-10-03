@@ -22,10 +22,10 @@ jobs:
         run: npm ci
 
       - name: Build Angular project
-        run: npm run build --configuration=production --output-path=dist/enigma --base-href "/enigma/"
+        run: npm run build -- --configuration=production --output-path=dist/enigma --base-href "/enigma/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/enigma
+          publish_dir: ./dist/enigma/browser
