@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular project
-        run: npm run build:prod"
+        run: npm run build:prod
 
       - name: Show build output
         run: ls -R ./dist/enigma/browser
