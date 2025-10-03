@@ -1,12 +1,19 @@
-<app-rotors 
-  [settings]="rotorSettings" 
-  (settingsValue)="updateSettings($event)"
->
-</app-rotors>
+<header class="w-full block text-center">
+  <h1 class="font-bold text-5xl tracking-wide text-primary-600">
+    Enhanced Enigma Simulator
+  </h1>
+</header>
+<main class="flex flex-col gap-10 justify-center items-center w-full mt-10">
+  <app-rotors 
+    [settings]="rotorSettings" 
+    (settingsValue)="updateSettings($event)"
+  >
+  </app-rotors>
 
-<app-texts 
-  [settings]="rotorSettings" 
-  (cipherDone)="onCipherDone()"
-  (resetAll)="onResetAll()"
->
-</app-texts>
+  <app-texts 
+    [settings]="rotorSettings" 
+    (cipherDone)="onCipherDone()"
+    (resetAll)="onResetAll()"
+  >
+  </app-texts>
+</main>
