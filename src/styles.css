@@ -1,1 +1,74 @@
-/* You can add global styles to this file, and also import other style files */
+@import "variables.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ByteBounce';
+  src: url('/ByteBounce.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .5s;
+}
+
+body {
+  background-color: var(--basic-1100);
+  color: var(--basic-300);
+  font-family: 'ByteBounce';
+  font-size: 1.25rem;
+  padding: 1rem;
+  width: 100vw;
+}
+
+@layer base {
+  .btn-primary {
+    background-color: var(--primary-600);
+    color: var(--primary-100);
+    padding: 12px 24px;
+    border: 2px solid var(--primary-600);
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .2s;
+
+    &:disabled {
+      background-color: var(--primary-900);
+      border: 2px solid var(--primary-900);
+      color: var(--primary-700);
+    }
+    &:hover {
+      background-color: var(--primary-700);
+    }
+    &:active{
+      background-color: var(--primary-800);
+    }
+  }
+  .btn-secondary {
+    background-color: transparent;
+    color: var(--primary-600);
+    padding: 12px 24px;
+    border: 2px solid var(--primary-600);
+    border-radius: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: all .2s;
+
+    &:disabled {
+      color: var(--primary-700);
+      border: var(--primary-900);
+    }
+    &:hover {
+      background-color: var(--primary-700);
+      color: var(--primary-100);
+    }
+    &:active{
+      background-color: var(--primary-800);
+    }
+  }
+}
