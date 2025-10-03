@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'ByteBounce';
-  src: url('./ByteBounce.ttf');
+  src: url('ByteBounce.ttf');
 }
 
 * {
