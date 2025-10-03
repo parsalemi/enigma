@@ -22,9 +22,10 @@ jobs:
         run: npm ci
 
       - name: Build Angular project
-        run: npm run build -- --configuration production --base-href "/enigma/" || true
-          echo "=== BUILD FINISHED (maybe with error) ==="
-          ls -R dist || echo "dist folder not found"
+        run: npm run build -- --configuration production --base-href "/enigma/"
+
+      - name: Show build output
+        run: ls -R ./dist/enigma/browser
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
