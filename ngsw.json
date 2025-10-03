@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759529481088,
+  "timestamp": 1759530205354,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -11,8 +11,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "./favicon.ico",
-        "./index.html",
         "./main-64SEP33Z.js",
         "./polyfills-5CFQRCPP.js",
         "./styles-O4TCCQ7F.css"
@@ -51,7 +49,6 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "./favicon.ico": "471452a541743c1ead06bc32efcf0f1ccc12aae7",
     "./fonts/ByteBounce.ttf": "fc27f3991ffa8d78241d15f5c40f6f65ac4d0bf2",
     "./icons/enigma-16-dark.png": "56cb166c8d1179994e591f24fc9eb35c6bd124b0",
     "./icons/enigma-16-light.png": "d926fae947ce0b84ff325dc49db937ae929a2de5",
@@ -69,7 +66,6 @@
     "./icons/enigma-76-light.png": "77b1a4115096fcd5769a456ad5c4e46dd5828a4a",
     "./icons/enigma-96-dark.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
     "./icons/enigma-96-light.png": "71a32c88de75ff90380f5d216315e33fdd964687",
-    "./index.html": "279fcff5d5f3990671cef386ccec16ef9eb5a12d",
     "./main-64SEP33Z.js": "5e05c09b8febf8d3cb267ea694b6536c7979c5b7",
     "./media/ByteBounce-O4OVRDNP.ttf": "fc27f3991ffa8d78241d15f5c40f6f65ac4d0bf2",
     "./polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
