@@ -6,10 +6,55 @@
   <base href="./">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="styles-5INURTSO.css"></head>
+  <link id="site-manifest" rel="manifest" href="manifest.dark.json">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/enigma-16-dark.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/enigma-32-dark.png">
+  <link rel="icon" type="image/png" sizes="57x57" href="/icons/enigma-57-dark.png">
+  <link rel="icon" type="image/png" sizes="60x60" href="/icons/enigma-60-dark.png">
+  <link rel="icon" type="image/png" sizes="70x70" href="/icons/enigma-70-dark.png">
+  <link rel="icon" type="image/png" sizes="72x72" href="/icons/enigma-72-dark.png">
+  <link rel="icon" type="image/png" sizes="76x76" href="/icons/enigma-76-dark.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/icons/enigma-96-dark.png">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
+  <script>
+    (function() {
+      const sizes = [16,32,57,60,70,72,76,96];
+      const mq = window.matchMedia('(prefers-color-scheme: dark)');
+      const manifestLink = document.getElementById('site-manifest');
+
+      function applyIcons(mode) {
+        document.querySelectorAll('link[rel="icon"]').forEach(n => n.remove());
+
+        sizes.forEach(size => {
+          const link = document.createElement('link');
+          link.rel = 'icon';
+          link.type = 'image/png';
+          link.sizes = size + 'x' + size;
+          link.href = `/icons/enigma-${size}-${mode}.png`;
+          document.head.appendChild(link);
+        });
+
+        manifestLink.href = `/manifest.${mode}.json`;
+      }
+
+      function setScheme(isDark) {
+        applyIcons(isDark ? 'light' : 'dark');
+      }
+
+      setScheme(mq.matches);
+
+      if (mq.addEventListener) {
+        mq.addEventListener('change', e => setScheme(e.matches));
+      } else if (mq.addListener) {
+        mq.addListener(e => setScheme(e.matches));
+      }
+    })();
+  </script>
+<style>:root{--basic-100:oklch(95% .015 160);--basic-200:oklch(90% .02 160);--basic-300:oklch(82% .025 160);--basic-400:oklch(72% .03 160);--basic-500:oklch(62% .035 160);--basic-600:oklch(52% .04 160);--basic-700:oklch(42% .045 160);--basic-800:oklch(32% .05 160);--basic-900:oklch(24% .055 160);--basic-1000:oklch(16% .05 160);--basic-1100:oklch(10% .04 160);--primary-100:oklch(95% .18 135);--primary-200:oklch(88% .22 135);--primary-300:oklch(78% .26 135);--primary-400:oklch(68% .3 135);--primary-500:oklch(58% .32 135);--primary-600:oklch(48% .32 135);--primary-700:oklch(38% .3 135);--primary-800:oklch(28% .26 135);--primary-900:oklch(18% .22 135);--error-100:oklch(95% .15 30);--error-200:oklch(88% .2 30);--error-300:oklch(76% .26 30);--error-400:oklch(64% .32 30);--error-500:oklch(50% .34 30);--error-600:oklch(35% .3 30)}*,:before,:after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / .5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }*,:before,:after{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}:before,:after{--tw-content:""}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}@font-face{font-family:ByteBounce;src:url(/ByteBounce.ttf)}*{margin:0;padding:0;box-sizing:border-box;transition:all .5s}body{background-color:var(--basic-1100);color:var(--basic-300);font-family:ByteBounce;font-size:1.25rem;padding:1rem;width:100vw}</style><link rel="stylesheet" href="styles-WHZ6Y3CH.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles-WHZ6Y3CH.css"></noscript></head>
 <body>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-MH2HB2TW.js" type="module"></script></body>
+<script src="polyfills-5CFQRCPP.js" type="module"></script><script src="main-64SEP33Z.js" type="module"></script></body>
 </html>

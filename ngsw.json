@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759525800643,
+  "timestamp": 1759527914965,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -13,10 +13,9 @@
       "urls": [
         "./favicon.ico",
         "./index.html",
-        "./main-MH2HB2TW.js",
-        "./manifest.webmanifest",
+        "./main-64SEP33Z.js",
         "./polyfills-5CFQRCPP.js",
-        "./styles-5INURTSO.css"
+        "./styles-WHZ6Y3CH.css"
       ],
       "patterns": []
     },
@@ -28,34 +27,51 @@
         "ignoreVary": true
       },
       "urls": [
-        "./icons/enigma-16.png",
-        "./icons/enigma-32.png",
-        "./icons/enigma-57.png",
-        "./icons/enigma-60.png",
-        "./icons/enigma-70.png",
-        "./icons/enigma-72.png",
-        "./icons/enigma-76.png",
-        "./icons/enigma-96.png"
+        "./ByteBounce.ttf",
+        "./icons/enigma-16-dark.png",
+        "./icons/enigma-16-light.png",
+        "./icons/enigma-32-dark.png",
+        "./icons/enigma-32-light.png",
+        "./icons/enigma-57-dark.png",
+        "./icons/enigma-57-light.png",
+        "./icons/enigma-60-dark.png",
+        "./icons/enigma-60-light.png",
+        "./icons/enigma-70-dark.png",
+        "./icons/enigma-70-light.png",
+        "./icons/enigma-72-dark.png",
+        "./icons/enigma-72-light.png",
+        "./icons/enigma-76-dark.png",
+        "./icons/enigma-76-light.png",
+        "./icons/enigma-96-dark.png",
+        "./icons/enigma-96-light.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
+    "./ByteBounce.ttf": "fc27f3991ffa8d78241d15f5c40f6f65ac4d0bf2",
     "./favicon.ico": "471452a541743c1ead06bc32efcf0f1ccc12aae7",
-    "./icons/enigma-16.png": "56cb166c8d1179994e591f24fc9eb35c6bd124b0",
-    "./icons/enigma-32.png": "94da86854c427844fc587b49c690034bee487b95",
-    "./icons/enigma-57.png": "875dc2780dc61fb5d6b94e7fb648c85325469d00",
-    "./icons/enigma-60.png": "fbafbe335f03577ce8ede69eba28474baf8a45e2",
-    "./icons/enigma-70.png": "59ac9f12c3478b2a300b619819ad72f3ecae5f6f",
-    "./icons/enigma-72.png": "c10853b5f14977520cea7ec547105bcf00fe6d65",
-    "./icons/enigma-76.png": "dfb9e78e186ead5457f796428ba166d9de387644",
-    "./icons/enigma-96.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
-    "./index.html": "9cfdf2a044f75b4ee00ec930819b4273fe3aeacc",
-    "./main-MH2HB2TW.js": "1f781bc1a5cd7cf2f0498c939de99ef98d043450",
-    "./manifest.webmanifest": "5e94181068338a6e37d38ed4a56c5d59cf5fac58",
+    "./icons/enigma-16-dark.png": "56cb166c8d1179994e591f24fc9eb35c6bd124b0",
+    "./icons/enigma-16-light.png": "d926fae947ce0b84ff325dc49db937ae929a2de5",
+    "./icons/enigma-32-dark.png": "94da86854c427844fc587b49c690034bee487b95",
+    "./icons/enigma-32-light.png": "3f059482a014515d837e1911c8b1e2a95fc0a662",
+    "./icons/enigma-57-dark.png": "875dc2780dc61fb5d6b94e7fb648c85325469d00",
+    "./icons/enigma-57-light.png": "5cd9d5a956b34e01ca9fecdcaa871706da954cf8",
+    "./icons/enigma-60-dark.png": "fbafbe335f03577ce8ede69eba28474baf8a45e2",
+    "./icons/enigma-60-light.png": "846695bd5934219729f8674b12f481e875172342",
+    "./icons/enigma-70-dark.png": "59ac9f12c3478b2a300b619819ad72f3ecae5f6f",
+    "./icons/enigma-70-light.png": "1bd052a9c910c4d2c8982bfc843da7df5a4acd07",
+    "./icons/enigma-72-dark.png": "c10853b5f14977520cea7ec547105bcf00fe6d65",
+    "./icons/enigma-72-light.png": "a7d42f9a8d11a6f77c50d0cfda96fb7cf5c83040",
+    "./icons/enigma-76-dark.png": "dfb9e78e186ead5457f796428ba166d9de387644",
+    "./icons/enigma-76-light.png": "77b1a4115096fcd5769a456ad5c4e46dd5828a4a",
+    "./icons/enigma-96-dark.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
+    "./icons/enigma-96-light.png": "71a32c88de75ff90380f5d216315e33fdd964687",
+    "./index.html": "ac0f56e3cbd2ad41836634f0fcd3796f9780d5de",
+    "./main-64SEP33Z.js": "5e05c09b8febf8d3cb267ea694b6536c7979c5b7",
     "./polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
-    "./styles-5INURTSO.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+    "./styles-WHZ6Y3CH.css": "c439e63305e0e19010001c7ab8ddf3a304792e59"
   },
   "navigationUrls": [
     {
