@@ -22,7 +22,7 @@ jobs:
         run: npm ci
 
       - name: Build Angular project
-        run: npm run build -- --configuration=production --base-href "/enigma/"
+        run: npm run build -- --configuration production --base-href "/enigma/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
