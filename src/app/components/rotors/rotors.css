@@ -1,0 +1,30 @@
+input {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border: 2px solid var(--primary-800);
+  background-color: var(--basic-1100);
+  border-radius: 8px;
+  font-size: 2.25rem;
+  letter-spacing: 1px;
+  transition: all .1s;
+
+  &:focus-visible{
+    outline: none;
+    border: 2px solid var(--primary-700);
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+label {
+  font-size: 1.5rem;
+}
