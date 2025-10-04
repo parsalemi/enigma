@@ -5,8 +5,8 @@
   <title>Enigma</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link id="site-manifest" rel="manifest" href="manifest.dark.json">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link id="site-manifest" rel="manifest" href="./manifest.dark.json">
   <link rel="icon" type="image/png" sizes="16x16" href="/icons/enigma-16-dark.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/icons/enigma-32-dark.png">
   <link rel="icon" type="image/png" sizes="57x57" href="/icons/enigma-57-dark.png">
@@ -32,11 +32,11 @@
           link.rel = 'icon';
           link.type = 'image/png';
           link.sizes = size + 'x' + size;
-          link.href = `/icons/enigma-${size}-${mode}.png`;
+          link.href = `./icons/enigma-${size}-${mode}.png`;
           document.head.appendChild(link);
         });
 
-        manifestLink.href = `/manifest.${mode}.json`;
+        manifestLink.href = `./manifest.${mode}.json`;
       }
 
       function setScheme(isDark) {
