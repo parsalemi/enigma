@@ -28,7 +28,7 @@ body {
   .btn-primary {
     background-color: var(--primary-600);
     color: var(--primary-100);
-    padding: 12px 24px;
+    padding: 8px 12px;
     border: 2px solid var(--primary-600);
     border-radius: 12px;
     font-size: 1.5rem;
@@ -51,7 +51,7 @@ body {
   .btn-secondary {
     background-color: transparent;
     color: var(--primary-600);
-    padding: 12px 24px;
+    padding: 8px 12px;
     border: 2px solid var(--primary-600);
     border-radius: 12px;
     font-size: 1.5rem;
