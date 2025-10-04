@@ -1,15 +1,15 @@
 <div class="flex gap-10 items-center justify-center">
   <div class="flex flex-col gap-3 items-center justify-center">
     <label for="rotor1">Rotor 1</label>
-    <input name="rotor1" type="number" inputmode="numeric" [(ngModel)]="settings[0]" (input)="emitValue()">
+    <input [max]="_rotors.language === 'farsi' ? 70 : 89" name="rotor1" type="number" inputmode="numeric" [(ngModel)]="settings[0]" (input)="sanitizeInput(0, $event)">
   </div>
   <div class="flex flex-col gap-3 items-center justify-center">
     <label for="rotor2">Rotor 2</label>
-    <input name="rotor2" type="number" inputmode="numeric" [(ngModel)]="settings[1]" (input)="emitValue()">
+    <input [max]="_rotors.language === 'farsi' ? 70 : 89" name="rotor2" type="number" inputmode="numeric" [(ngModel)]="settings[1]" (input)="sanitizeInput(1, $event)">
   </div>
   <div class="flex flex-col gap-3 items-center justify-center">
     <label for="rotor3">Rotor 3</label>
-    <input name="rotor3" type="number" inputmode="numeric" [(ngModel)]="settings[2]" (input)="emitValue()">
+    <input [max]="_rotors.language === 'farsi' ? 70 : 89" name="rotor3" type="number" inputmode="numeric" [(ngModel)]="settings[2]" (input)="sanitizeInput(2, $event)">
   </div>
 </div>
 <button class="btn-secondary block mx-auto mt-5" (click)="randomizeSettings()">Randomize</button>
