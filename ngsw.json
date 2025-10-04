@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759530205354,
+  "timestamp": 1759618333832,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -11,9 +11,9 @@
         "ignoreVary": true
       },
       "urls": [
-        "./main-64SEP33Z.js",
+        "./main-ULI6P7AT.js",
         "./polyfills-5CFQRCPP.js",
-        "./styles-O4TCCQ7F.css"
+        "./styles-C6EUTMET.css"
       ],
       "patterns": []
     },
@@ -45,6 +45,16 @@
         "./media/ByteBounce-O4OVRDNP.ttf"
       ],
       "patterns": []
+    },
+    {
+      "name": "rotors",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [],
+      "patterns": []
     }
   ],
   "dataGroups": [],
@@ -66,10 +76,10 @@
     "./icons/enigma-76-light.png": "77b1a4115096fcd5769a456ad5c4e46dd5828a4a",
     "./icons/enigma-96-dark.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
     "./icons/enigma-96-light.png": "71a32c88de75ff90380f5d216315e33fdd964687",
-    "./main-64SEP33Z.js": "5e05c09b8febf8d3cb267ea694b6536c7979c5b7",
+    "./main-ULI6P7AT.js": "9fd4dc4bcfae148594b6bc15de0e41f522559fef",
     "./media/ByteBounce-O4OVRDNP.ttf": "fc27f3991ffa8d78241d15f5c40f6f65ac4d0bf2",
     "./polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
-    "./styles-O4TCCQ7F.css": "a09fe223489a16d254ba941dfbc70df02582e06f"
+    "./styles-C6EUTMET.css": "358a3d54c0b7acff472f92dcd31ebba5cd741fe0"
   },
   "navigationUrls": [
     {
