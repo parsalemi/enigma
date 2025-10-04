@@ -34,6 +34,7 @@ export class Texts implements OnChanges{
   }
 
   pasteFromClipboard() {
+    this.disabled = false;
     navigator.clipboard.readText().then(text => this.plain = text);
   }
 
