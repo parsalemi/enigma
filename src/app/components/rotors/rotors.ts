@@ -25,6 +25,19 @@ export class Rotors implements OnChanges, OnInit{
     this.defaultSettings = [...this.settings];
   }
 
+  sanitizeInput(index: number, event: Event) {
+    let input = (event.target as HTMLInputElement).value;
+
+    if(input.length > 1 && input.startsWith('0')) {
+      input = String(Number(input));
+      (event.target as HTMLInputElement).value = input;
+    }
+
+
+    this.settings[index] = Number(input);
+    this.emitValue();
+  }
+
   async emitValue(){
     this.settingsValue.emit(this.settings);
     await this._rotors.setRotorSetting(this.settings);
