@@ -14,7 +14,7 @@ export class Rotors implements OnChanges, OnInit{
   settingsValue = output<number[]>();
   defaultSettings = [0, 0, 0];
 
-  private _rotors = inject(Rotor);
+  _rotors = inject(Rotor);
 
   ngOnInit(): void {
     this.defaultSettings = [...this.settings];
@@ -50,7 +50,7 @@ export class Rotors implements OnChanges, OnInit{
 
   async randomizeSettings() {
     await this._rotors.loadRotors();
-    this.defaultSettings = Array.from({ length: 3 }, () => Math.floor(Math.random() * 53));
+    this.defaultSettings = Array.from({ length: 3 }, () => Math.floor(Math.random() * (this._rotors.language === 'english' ? 89 : 70)));
     this.settingsValue.emit([...this.defaultSettings]);
     await this._rotors.setRotorSetting(this.defaultSettings);
   }
