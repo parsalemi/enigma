@@ -13,6 +13,9 @@ input {
     outline: none;
     border: 2px solid var(--primary-700);
   }
+  &:invalid {
+    border: 2px solid var(--error-600);
+  }
 }
 
 input::-webkit-outer-spin-button,
