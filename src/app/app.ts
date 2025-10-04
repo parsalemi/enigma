@@ -15,9 +15,16 @@ export class App implements OnInit{
   private _rotorService = inject(Rotor);
   rotors!: RotorsModel;
   rotorSettings: number[] = [0, 0, 0];
+  language = this._rotorService.language;
 
   async ngOnInit() {
     this.rotors = await this._rotorService.loadRotors();
+  }
+  async setLanguage(lang: 'english' | 'farsi') {
+    this.language = lang;
+    this._rotorService.setLanguage(lang);
+    await this._rotorService.loadRotors();
+    await this._rotorService.setRotorSetting(this.rotorSettings);
   }
 
   updateSettings(settings: number[]) {
