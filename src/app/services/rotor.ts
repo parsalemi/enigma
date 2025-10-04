@@ -23,7 +23,7 @@ export class Rotor {
     this._original = null;
     this._rotors$.next(null);
   }
-  
+
   get language() {
     return this._language.value;
   }
@@ -35,7 +35,6 @@ export class Rotor {
   async loadRotors(): Promise<RotorsModel> {
     if (!this._original) {
       const filename = this.language === 'farsi' ? 'farsi-shuffle.json' : 'shuffle.json';
-      console.log(filename, this.language);
       const rotors = await firstValueFrom(
         this._http.get<RotorsModel>(`${this.env.fileUrl}/${filename}`)
       );
