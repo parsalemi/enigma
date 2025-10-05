@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1759707604334,
+  "timestamp": 1759708019108,
   "index": "./index.html",
   "assetGroups": [
     {
@@ -10,75 +10,22 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [
-        "./main-7GDNSVX7.js",
-        "./polyfills-5CFQRCPP.js",
-        "./styles-IBXLTWK5.css"
-      ],
+      "urls": [],
       "patterns": []
     },
     {
-      "name": "static-files",
-      "installMode": "prefetch",
+      "name": "public",
+      "installMode": "lazy",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [
-        "./fonts/AnonymousPro-Bold.ttf",
-        "./fonts/AnonymousPro-Regular.ttf",
-        "./fonts/ByteBounce.ttf",
-        "./icons/enigma-16-dark.png",
-        "./icons/enigma-16-light.png",
-        "./icons/enigma-32-dark.png",
-        "./icons/enigma-32-light.png",
-        "./icons/enigma-57-dark.png",
-        "./icons/enigma-57-light.png",
-        "./icons/enigma-60-dark.png",
-        "./icons/enigma-60-light.png",
-        "./icons/enigma-70-dark.png",
-        "./icons/enigma-70-light.png",
-        "./icons/enigma-72-dark.png",
-        "./icons/enigma-72-light.png",
-        "./icons/enigma-76-dark.png",
-        "./icons/enigma-76-light.png",
-        "./icons/enigma-96-dark.png",
-        "./icons/enigma-96-light.png",
-        "./media/AnonymousPro-Bold-WYTEVSA5.ttf",
-        "./media/AnonymousPro-Regular-QI4W7GCT.ttf",
-        "./media/ByteBounce-O4OVRDNP.ttf"
-      ],
+      "urls": [],
       "patterns": []
     }
   ],
   "dataGroups": [],
-  "hashTable": {
-    "./fonts/AnonymousPro-Bold.ttf": "bfc8d198336c84f11f43c33671de9e23ddf3d058",
-    "./fonts/AnonymousPro-Regular.ttf": "e5a1581199fe0058ba03e322b9a4823e199dd2b6",
-    "./fonts/ByteBounce.ttf": "fc27f3991ffa8d78241d15f5c40f6f65ac4d0bf2",
-    "./icons/enigma-16-dark.png": "56cb166c8d1179994e591f24fc9eb35c6bd124b0",
-    "./icons/enigma-16-light.png": "d926fae947ce0b84ff325dc49db937ae929a2de5",
-    "./icons/enigma-32-dark.png": "94da86854c427844fc587b49c690034bee487b95",
-    "./icons/enigma-32-light.png": "3f059482a014515d837e1911c8b1e2a95fc0a662",
-    "./icons/enigma-57-dark.png": "875dc2780dc61fb5d6b94e7fb648c85325469d00",
-    "./icons/enigma-57-light.png": "5cd9d5a956b34e01ca9fecdcaa871706da954cf8",
-    "./icons/enigma-60-dark.png": "fbafbe335f03577ce8ede69eba28474baf8a45e2",
-    "./icons/enigma-60-light.png": "846695bd5934219729f8674b12f481e875172342",
-    "./icons/enigma-70-dark.png": "59ac9f12c3478b2a300b619819ad72f3ecae5f6f",
-    "./icons/enigma-70-light.png": "1bd052a9c910c4d2c8982bfc843da7df5a4acd07",
-    "./icons/enigma-72-dark.png": "c10853b5f14977520cea7ec547105bcf00fe6d65",
-    "./icons/enigma-72-light.png": "a7d42f9a8d11a6f77c50d0cfda96fb7cf5c83040",
-    "./icons/enigma-76-dark.png": "dfb9e78e186ead5457f796428ba166d9de387644",
-    "./icons/enigma-76-light.png": "77b1a4115096fcd5769a456ad5c4e46dd5828a4a",
-    "./icons/enigma-96-dark.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
-    "./icons/enigma-96-light.png": "71a32c88de75ff90380f5d216315e33fdd964687",
-    "./main-7GDNSVX7.js": "9fa1fd15d8a7f3c15f7eebf80ea6a50f0515656e",
-    "./media/AnonymousPro-Bold-WYTEVSA5.ttf": "bfc8d198336c84f11f43c33671de9e23ddf3d058",
-    "./media/AnonymousPro-Regular-QI4W7GCT.ttf": "e5a1581199fe0058ba03e322b9a4823e199dd2b6",
-    "./media/ByteBounce-O4OVRDNP.ttf": "fc27f3991ffa8d78241d15f5c40f6f65ac4d0bf2",
-    "./polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
-    "./styles-IBXLTWK5.css": "93825d9d1a7e430ce1aabd315578f9a6133b60a8"
-  },
+  "hashTable": {},
   "navigationUrls": [
     {
       "positive": true,
