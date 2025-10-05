@@ -5,7 +5,7 @@ input {
   border: 2px solid var(--primary-800);
   background-color: var(--basic-1100);
   border-radius: 8px;
-  font-size: 2.25rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   transition: all .1s;
 
@@ -29,5 +29,5 @@ input[type=number] {
 }
 
 label {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
