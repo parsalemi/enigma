@@ -10,38 +10,28 @@
           "index.html",
           "/*.css",
           "/*.js",
+          "favicon.ico",
           "manifest.dark.json",
-          "manifest.light.json",
-          "favicon.ico"
+          "manifest.light.json"
         ]
       }
     },
     {
-      "name": "assets",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
+      "name": "static-files",
+      "installMode": "prefetch",
       "resources": {
         "files": [
-          "assets/**",
           "icons/**",
           "ByteBounce.ttf",
-          "**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
-        ]
-      }
-    },
-    {
-      "name": "rotors",
-      "installMode": "lazy",
-      "updateMode": "prefetch",
-      "resources": {
-        "files": [
+          "AnonymousPro-Bold.ttf",
+          "AnonymousPro-Regular.ttf",
           "shuffle.json",
           "farsi-shuffle.json",
-          "icons/**",
           "**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
       }
     }
   ]
 }
+
 
