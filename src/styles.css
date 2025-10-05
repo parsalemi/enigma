@@ -28,10 +28,14 @@
 body {
   background-color: var(--basic-1100);
   color: var(--basic-300);
-  font-family: 'ByteBounce';
+  font-family: 'anonymous-regular';
   font-size: 1.25rem;
   padding: 1rem;
   width: 100vw;
+}
+
+h1,h2,h3{
+  font-family: 'anonymous-bold';
 }
 
 @layer base {
@@ -42,7 +46,7 @@ body {
     border: 2px solid var(--primary-600);
     border-radius: 12px;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-family: 'anonymous-bold';
     letter-spacing: 1px;
     transition: all .2s;
 
@@ -52,7 +56,7 @@ body {
       color: var(--primary-700);
     }
     &:hover {
-      background-color: var(--primary-700);
+      background-color: var(--primary-800);
     }
     &:active{
       background-color: var(--primary-800);
@@ -65,7 +69,7 @@ body {
     border: 2px solid var(--primary-600);
     border-radius: 12px;
     font-size: 1.5rem;
-    font-weight: bold;
+    font-family: 'anonymous-bold';
     letter-spacing: 1px;
     transition: all .2s;
 
