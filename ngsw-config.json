@@ -7,27 +7,26 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "index.html",
-          "/*.css",
-          "/*.js",
-          "favicon.ico",
-          "manifest.dark.json",
-          "manifest.light.json"
+          "./index.html",
+          "./*.css",
+          "./*.js",
+          "./manifest.dark.json",
+          "./manifest.light.json",
+          "./favicon.ico"
         ]
       }
     },
     {
-      "name": "static-files",
-      "installMode": "prefetch",
+      "name": "public",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
       "resources": {
         "files": [
-          "icons/**",
-          "ByteBounce.ttf",
-          "AnonymousPro-Bold.ttf",
-          "AnonymousPro-Regular.ttf",
-          "shuffle.json",
-          "farsi-shuffle.json",
-          "**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "./icons/**",
+          "./shuffle.json",
+          "./farsi-shuffle.json",
+          "./ByteBounce.ttf",
+          "./**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
       }
     }
