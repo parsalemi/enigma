@@ -2,13 +2,13 @@
   <div class="flex flex-col gap-3 w-[50%] justify-center items-center">
     <label class="text-3xl" for="plain">Input</label>
     <textarea class="w-full h-52 bg-basic-900 text-2xl p-2" name="plain" id="plain" [(ngModel)]="plain" (input)="disabled = false"></textarea>
-    <button class="btn-primary py-1" (click)="pasteFromClipboard()">Paste</button>
+    <button class="btn-primary py-1 w-full bg-basic-800 border-basic-900 hover:bg-basic-700" (click)="pasteFromClipboard()">Paste</button>
   </div>
 
   <div class="flex flex-col gap-3 w-[50%] justify-center items-center">
     <label class="text-3xl" for="cipher">Output</label>
     <textarea class="w-full h-52 bg-basic-900 text-2xl p-2" name="cipher" id="cipher" [value]="cipher" readonly></textarea>
-    <button class="btn-primary py-1" (click)="copyToClipboard()">Copy</button>
+    <button class="btn-primary py-1 w-full bg-basic-800 border-basic-900 hover:bg-basic-700" (click)="copyToClipboard()">Copy</button>
   </div>
   
 </div>
