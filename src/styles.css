@@ -8,6 +8,16 @@
   src: url('assets/fonts/ByteBounce.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'anonymous-regular';
+  src: url('assets/fonts/AnonymousPro-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'anonymous-bold';
+  src: url('assets/fonts/AnonymousPro-Bold.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
