@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1760874499763,
+  "timestamp": 1760876756486,
   "index": "/enigma/index.html",
   "assetGroups": [
     {
@@ -10,7 +10,11 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [],
+      "urls": [
+        "/enigma/main-XNECIFKD.js",
+        "/enigma/polyfills-5CFQRCPP.js",
+        "/enigma/styles-6HQNZZT3.css"
+      ],
       "patterns": []
     },
     {
@@ -25,7 +29,11 @@
     }
   ],
   "dataGroups": [],
-  "hashTable": {},
+  "hashTable": {
+    "/enigma/main-XNECIFKD.js": "a43fa422fecca599f3955e986a7c5f9b6c00f616",
+    "/enigma/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
+    "/enigma/styles-6HQNZZT3.css": "8806ff13833c8697e88107012571af885baefe23"
+  },
   "navigationUrls": [
     {
       "positive": true,
