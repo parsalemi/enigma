@@ -7,12 +7,12 @@
       "installMode": "prefetch",
       "resources": {
         "files": [
-          "./index.html",
-          "./*.css",
-          "./*.js",
-          "./manifest.dark.json",
-          "./manifest.light.json",
-          "./favicon.ico"
+          "index.html",
+          "/*.css",
+          "/*.js",
+          "manifest.dark.json",
+          "manifest.light.json",
+          "favicon.ico"
         ]
       }
     },
@@ -22,14 +22,15 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "./icons/**",
-          "./fonts/**",
-          "./shuffle.json",
-          "./farsi-shuffle.json",
-          "./ByteBounce.ttf",
-          "./**/*.{svg,cur,jpg,jpeg,png,apng,webp,avif,gif,otf,ttf,woff,woff2}"
+          "icons/**",
+          "fonts/**",
+          "shuffle.json",
+          "farsi-shuffle.json",
+          "ByteBounce.ttf",
+          "**/*.{svg,cur,jpg,jpeg,png,apng,webp,avif,gif,otf,ttf,woff,woff2}"
         ]
       }
     }
   ]
 }
+
