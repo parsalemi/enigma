@@ -23,14 +23,13 @@
       "resources": {
         "files": [
           "./icons/**",
+          "./fonts/**",
           "./shuffle.json",
           "./farsi-shuffle.json",
           "./ByteBounce.ttf",
-          "./**/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "./**/*.{svg,cur,jpg,jpeg,png,apng,webp,avif,gif,otf,ttf,woff,woff2}"
         ]
       }
     }
   ]
 }
-
-
