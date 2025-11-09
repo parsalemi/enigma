@@ -17,6 +17,17 @@
       }
     },
     {
+      "name": "data",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "resources": {
+        "files": [
+          "/shuffle.json",
+          "/farsi-shuffle.json"
+        ]
+      }
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
@@ -25,8 +36,6 @@
           "/assets/**",
           "/icons/**",
           "/fonts/**",
-          "/shuffle.json",
-          "/farsi-shuffle.json",
           "/*.(svg|cur|ico|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
       }
