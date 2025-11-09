@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1761446268753,
+  "timestamp": 1762682635390,
   "index": "/enigma/index.html",
   "assetGroups": [
     {
@@ -22,7 +22,7 @@
       "patterns": []
     },
     {
-      "name": "public",
+      "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
       "cacheQueryOptions": {
