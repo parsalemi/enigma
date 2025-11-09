@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1762682635390,
+  "timestamp": 1762682868825,
   "index": "/enigma/index.html",
   "assetGroups": [
     {
@@ -22,6 +22,19 @@
       "patterns": []
     },
     {
+      "name": "data",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/enigma/farsi-shuffle.json",
+        "/enigma/shuffle.json"
+      ],
+      "patterns": []
+    },
+    {
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
@@ -29,7 +42,6 @@
         "ignoreVary": true
       },
       "urls": [
-        "/enigma/farsi-shuffle.json",
         "/enigma/fonts/AnonymousPro-Bold.ttf",
         "/enigma/fonts/AnonymousPro-Regular.ttf",
         "/enigma/fonts/ByteBounce.ttf",
@@ -48,8 +60,7 @@
         "/enigma/icons/enigma-76-dark.png",
         "/enigma/icons/enigma-76-light.png",
         "/enigma/icons/enigma-96-dark.png",
-        "/enigma/icons/enigma-96-light.png",
-        "/enigma/shuffle.json"
+        "/enigma/icons/enigma-96-light.png"
       ],
       "patterns": []
     }
