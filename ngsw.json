@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1762682868825,
+  "timestamp": 1777761127699,
   "index": "/enigma/index.html",
   "assetGroups": [
     {
@@ -88,7 +88,7 @@
     "/enigma/icons/enigma-76-light.png": "77b1a4115096fcd5769a456ad5c4e46dd5828a4a",
     "/enigma/icons/enigma-96-dark.png": "c5dc23099d6e77372774b1b9311dad9bca341064",
     "/enigma/icons/enigma-96-light.png": "71a32c88de75ff90380f5d216315e33fdd964687",
-    "/enigma/index.html": "8baa6afc045a9e48b7518750974c39bdee0815fe",
+    "/enigma/index.html": "e3afc9eee3e4bc448d018311e49ef5b94288e0aa",
     "/enigma/main-XNECIFKD.js": "a43fa422fecca599f3955e986a7c5f9b6c00f616",
     "/enigma/manifest.dark.json": "cf5f5b777f3e95b7a6d8925799c1870f946e75d6",
     "/enigma/manifest.light.json": "04244213298e787dca8f1fb2b4417864b39c34f0",
