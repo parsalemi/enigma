@@ -25,7 +25,8 @@
               },
               {
                 "glob": "**/*",
-                "input": "src/assets"
+                "input": "src/assets",
+                "output": "/assets"
               }
             ],
             "styles": [
@@ -34,8 +35,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/enigma/",
-              "deployUrl": "/enigma/",
               "budgets": [
                 {
                   "type": "initial",

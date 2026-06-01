@@ -2,8 +2,8 @@
   "name": "enigma",
   "short_name": "enigma",
   "display": "standalone",
-  "scope": "./",
-  "start_url": "./",
+  "scope": "/",
+  "start_url": "/",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "icons": [

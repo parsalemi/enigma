@@ -36,7 +36,8 @@ export class Rotor {
     if (!this._original) {
       const filename = this.language === 'farsi' ? 'farsi-shuffle.json' : 'shuffle.json';
       const rotors = await firstValueFrom(
-        this._http.get<RotorsModel>(`${this.env.fileUrl}/${filename}`)
+        // this._http.get<RotorsModel>(`${this.env.fileUrl}/${filename}`)
+        this._http.get<RotorsModel>(`/${filename}`)
       );
       this._original = rotors;
       this._rotors$.next(rotors);

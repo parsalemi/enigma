@@ -4,11 +4,10 @@ import { Rotor, RotorsModel } from './services/rotor';
 import { Texts } from "./components/texts/texts";
 import { Rotors } from "./components/rotors/rotors";
 import { SwUpdate } from '@angular/service-worker';
-import { Update } from './services/update';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Texts, Rotors],
+  imports: [Texts, Rotors],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -19,7 +18,7 @@ export class App implements OnInit{
   rotorSettings: number[] = [0, 0, 0];
   language = this._rotorService.language;
 
-  constructor(private _updateService: Update) {}
+  constructor() {}
   
   async ngOnInit() {
     this.rotors = await this._rotorService.loadRotors();

@@ -5,9 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build:dev": "ng build --configuration=development",
-    "build:prod": "ng build --configuration=production --base-href /enigma/ --deploy-url /enigma/",
+    "build:prod": "ng build --configuration=production --base-href='/enigma/'",
     "build:local": "ng build --configuration=production --base-href /",
-    "http": "http-server -p 8080 -c-1 dist/enigma/browser",
+    "http": "http-server -p 8888 -c-1 dist/enigma/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
